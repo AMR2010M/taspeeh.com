@@ -60,13 +60,7 @@ var alertt=document.getElementById('alertt');
 	
 	var ss;
 ss='v';
-r.onclick=function(){ alert3.style.display='block';setTimeout(function(){alert3.style.display='none';},5000);
-	setTimeout(function(){alertt.innerText='after 4 seconds the message will disappear	'},1000);
-setTimeout(function(){alertt.innerText='after 3 seconds the message will disappear	'},2000);
-setTimeout(function(){alertt.innerText='after 2 seconds the message will disappear'	},3000);
-setTimeout(function(){alertt.innerText='after 1 seconds the message will disappear	'},4000);
-setTimeout(function(){alertt.innerText='after 0 seconds the message will disappear'	},4500);
-alertt.innerText='after 5 seconds the message will disappear'
+r.onclick=function(){ i=0; x.innerText=i;
 					}
 alertt.innerText=5
 yes.onclick=function(){ i=0; alert3.style.display='none';x.innerText=i;alertt.innerText=5}
